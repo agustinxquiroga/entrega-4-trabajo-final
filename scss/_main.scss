@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+/*--- BODY ---*/
+
+body{
+	font-family: "Roboto Mono";
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+/* --- NAV --- */
+.nav{
+	background-color: $bgcolor;
+	display: flex;
+	justify-content: space-evenly;
+	a{
+		color: $fontColorNav;
+		text-decoration: none;
+		letter-spacing: 2px;
+		font-weight: 600;
+	}	
+}
+.nav-link:hover{
+		text-decoration: line-through;
+		color: $fontColorNav;
+}
+
+
+/* --- TITULO --- */
+.principal{
+	margin: auto;
+	padding: 200px 200px 20px 200px;
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 3px
+}
+.principalTitulo{
+	font-size: 55px;
+}
+.subtitulo{
+	font-size: 1.5rem;
+	font-style: bold;
+}
+.subtitulo2{
+	padding: 1rem 100px;
+	padding-bottom: 200px;
+	font-weight: 600;
+	text-align: center;
+}
+.subtitulo2contacto{
+	padding: 1rem 100px;
+	font-weight: 600;
+	text-align: center;
+}
+.titulo {
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+/*--- Galeria --- */
+.carousel-inner{
+	border: 2px solid black;
+}
+
+/*--- FOOTER --- */
+.footer{
+	padding: 2rem;
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 3px;
+	color: $fontColorNav;
+	background-color: $bgcolor;
+}
+
+/*--- formulario ---*/
+.contenedor{
+		width: 400px;
+		padding: 30px;
+		margin: auto;
+		border-radius: 4px;
+		
+	form input{
+		display: flex;
+		margin: 10px;
+		padding: 10px;
+		background-color: #ffffff;
+	}
+}
+.control{
+	width: 100%;
+	padding: 10px;
+}
+.boton{ 
+	text-align: center;
+	padding: 10px;
+}
+
